@@ -1,0 +1,52 @@
+body{
+    margin: 0; 
+    background: lavender; 
+    font-weight: 700; 
+}
+.container{
+    width: 80%;
+    margin: 0 auto; 
+}
+
+header{
+    background: darkorchid ;
+    height: 50px;
+}
+
+nav{
+   float:left; 
+}
+
+nav ul{
+    margin:0;
+    padding: 0; 
+    list-style: none;
+}
+
+nav li{
+    display: inline;
+    margin-left: 70px;
+    padding: 15px;
+}
+
+nav a{
+    top:25px;
+    color: white;
+    text-decoration: none; 
+    font-size: 16;
+    position: relative;
+}
+
+nav a:hover{
+    color: black; 
+}
+
+footer{
+    font-family: georgia;
+    text-align: center;
+    padding: 3px;
+    color: black;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
